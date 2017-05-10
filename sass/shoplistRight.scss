@@ -1,0 +1,27 @@
+#shoplistRight{
+	width:38px;
+	height:613px;
+	background:#4C4C4C;
+	padding-top:130px;
+	position:fixed;
+	z-index:100;
+	top:0;
+	right:0;
+	a{
+		display:block;
+		width:38px;
+		height:38px;
+		color:#fff;
+		text-align:center;
+		&:nth-child(2){
+			height:100px;
+		}
+		&:nth-child(5){
+			margin-top:140px;
+		}
+		&:nth-child(7){
+			// 这个出现滚动条时才出现
+			margin-top:80px;
+		}
+	}
+}

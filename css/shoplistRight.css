@@ -1,0 +1,30 @@
+#shoplistRight {
+  width: 38px;
+  height: 613px;
+  background: #4C4C4C;
+  padding-top: 130px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  right: 0;
+}
+
+#shoplistRight a {
+  display: block;
+  width: 38px;
+  height: 38px;
+  color: #fff;
+  text-align: center;
+}
+
+#shoplistRight a:nth-child(2) {
+  height: 100px;
+}
+
+#shoplistRight a:nth-child(5) {
+  margin-top: 140px;
+}
+
+#shoplistRight a:nth-child(7) {
+  margin-top: 80px;
+}

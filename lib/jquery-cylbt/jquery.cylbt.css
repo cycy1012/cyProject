@@ -1,0 +1,6 @@
+.banner{position:relative;margin:0 auto;width:810px;height:320px;overflow:hidden;z-index:10;}
+.banner ul{position:relative;left:0;top:0;}
+.banner ul li{height:320px;overflow:hidden;}
+.page{position: absolute;right:350px;bottom:35px;}
+.page span{display:inline-block;margin:0 5px;width:20px;height:20px;line-height:30px;text-align:center;background-color:#000;opacity: 0.6;border-radius:50%;}
+.page span.active{background-color:#EC3E7D;color:#fff;}

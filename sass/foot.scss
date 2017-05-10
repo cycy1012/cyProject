@@ -1,0 +1,105 @@
+$bigWidth:1163px;
+$fontSize:12px;
+// 灰色字体
+$color:#999999;
+$position:right;
+$paddingRight:22px;
+*{padding:0;margin:0}
+a{text-decoration:none;}
+ul{list-style:none;}
+
+//后面改用引用
+
+
+#foot{
+	width:100%;
+	.container{
+		#links{
+			// height:283px;
+			overflow:hidden;
+			.top{
+				height:150px;
+				padding-top:50px;
+				li{
+					margin-left:60px;
+					margin-right:60px;
+					float:left;
+					p{
+						font-size:20px;
+						line-height:30px;
+						&:nth-child(3){
+							font-size:13px;
+							color:#828282;
+						}
+					}
+				}
+			}
+			.left{
+				width:65%;
+				float:left;
+				>ul>li{
+					float:left;
+					margin-right:85px;
+					ul{
+						p{
+						font-size:14px;
+						font-weight:bold;
+						}
+						li{
+							font-size:12px;
+							color:#828282;
+							margin-top:10px;
+						}
+					} 
+				}
+			}
+			.right{
+				width:35%;
+				float:left;
+				overflow:hidden;
+				div{
+					float:left;
+					img{
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+	.bottom_b{
+		background:#000;
+		padding-bottom:25px;
+		.container{
+			ul{
+				overflow:hidden;
+				li{
+					float:left;
+					padding-top:25px;
+					a{
+						color:#fff;
+						font-size:12px;
+						padding-right:8px;
+					}
+				}
+			}
+			p{
+				color:#fff;
+				font-size:12px;
+				margin-top:25px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

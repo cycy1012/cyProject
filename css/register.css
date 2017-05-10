@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+article {
+  width: 100%;
+  overflow: hidden;
+}
+
+article .container .logo {
+  padding-top: 20px;
+  height: 123px;
+}
+
+article .container .left {
+  float: left;
+  width: 50%;
+}
+
+article .container .left img {
+  width: 100%;
+  display: block;
+}
+
+article .container .right {
+  float: left;
+  width: 46%;
+  height: 439px;
+  padding-left: 40px;
+  padding-top: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 3px 1px #ccc;
+}
+
+article .container .right .title {
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+article .container .right .title span {
+  font-size: 12px;
+}
+
+article .container .right .title span:nth-child(1) {
+  margin-left: 230px;
+}
+
+article .container .right .title span:nth-child(2) {
+  color: #EC3E7D;
+}
+
+article .container .right input {
+  width: 480px;
+  height: 36px;
+  margin-top: 26px;
+  padding-left: 2px;
+}
+
+article .container .right input:nth-child(8) {
+  width: 14px;
+  height: 14px;
+  margin-right: 14px;
+}
+
+article .container .right > span {
+  font-size: 12px;
+}
+
+article .container .right button {
+  width: 480px;
+  height: 40px;
+  margin-top: 40px;
+  background: #EC3E7D;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+footer .container {
+  height: 66px;
+}
+
+footer .container p {
+  font-size: 12px;
+  line-height: 66px;
+  color: #A2A3A5;
+}
+
+footer .container p span {
+  margin-left: 650px;
+}
