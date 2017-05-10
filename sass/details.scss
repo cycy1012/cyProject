@@ -1,0 +1,136 @@
+@import 'head';
+@import 'shoplistRight';
+
+
+#b_nav .container .tall_nav{display:none;}
+
+.detailPage{
+	background:#ebebeb;
+	overflow:hidden;
+	.container{
+		.address{
+			height:36px;
+			a{
+				font-size:14px;
+				color:#888888;
+				line-height:36px;
+			}
+		}
+		.shopDetail{
+			background:#fff;
+			overflow:hidden;
+			.left{
+				width:50%;
+				float:left;
+				.others{
+					height:100px;
+				}
+				.midPic{
+					width:300px;
+					// height:300px;
+					position:relative;
+					top:-23px;
+					left:83px;;
+					img{
+						width:300px;
+						height:300px;
+						display:block;
+					}
+				}
+				.smPic{
+					height:180px;
+					img{
+						width:100px;
+						height:100px;
+						border:1px solid #ccc;
+					}
+				}
+			}
+			.right{
+				width:47%;
+				float:right;
+				padding-left:30px;
+				padding-top:20px;
+				h2{
+					font-size:22px;
+					line-height:1.2;
+					padding-bottom: 30px;
+    				text-align: left;
+    				font-weight: normal;
+				}
+				p{
+					font-size:18px;
+					line-height:26px;
+					color:#3e3e3e;
+					
+				}
+				.span1{
+					display:block;
+					width:100px;
+					height:20px;
+					border:1px solid #c69a62;
+					border-radius:30px 30px 30px 30px;
+					color:#c69a62;
+					font-size:12px;
+					text-align:center;
+					line-height:20px;
+					margin-top:20px;
+					margin-bottom:10px;
+				}
+				label{
+					font-size:12px;
+				}
+				.butt{
+					display:inline-block;
+					background:#decddc;
+					text-align:center;
+					width:20px;
+					height:20px;	
+				}
+				input{
+					width:15px;
+					height:15px;
+					margin-bottom:50px;
+				}
+				.redWord{
+					font-size:38px;
+					color:#ec3e7d;
+				}
+				.buyin{
+					display:inline-block;
+					width:220px;
+					height:50px;
+					background:#ec3e7d;
+					color:#fff;
+					font-size:22px;
+					text-align:center;
+					line-height:50px;
+					margin-right:10px;
+
+				}
+				.saoyisao{
+					display:inline-block;
+					width:220px;
+					height:50px;
+					color:#999999;
+					font-size:18px;
+					text-align:center;
+					line-height:50px;	
+					border:1px solid #ccc;
+					margin-top:20px;
+				}
+				.haoping{
+					display:inline-block;
+					margin-top:50px;
+					margin-bottom:30px;
+				}
+				hr{
+					margin-right:30px;
+					margin-bottom:30px;
+				}
+
+				
+			}
+		}
+	}
+}

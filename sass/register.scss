@@ -1,13 +1,5 @@
-$bigWidth:1163px;
-$fontSize:12px;
-// 灰色字体
-$color:#999999;
-$position:right;
-$paddingRight:22px;
-*{padding:0;margin:0}
-a{text-decoration:none;}
-ul{list-style:none;}
-.container{$bigWidth:1163px;}
+@import 'common';
+@import 'head';
 
 // 
 article{
@@ -48,32 +40,36 @@ article{
 					}
 				}
 			}
-			input{
-				width:480px;
-				height:36px;
-				margin-top:26px;
-				padding-left:2px;
-				// 勾选框
-				&:nth-child(8){
-					width:14px;
-					height:14px;
-					margin-right:14px;
+			form{
+				input{
+					width:480px;
+					height:36px;
+					margin-top:26px;
+					padding-left:2px;
+					// 勾选框
+					
 				}
-			}
-			>span{
-				font-size:12px;
+				.check{
+						width:14px;
+						height:14px;
+						margin-right:14px;
+				}
+				>span,a{
+					font-size:12px;
+					margin-right:20px;
 
-			}
-			button{
-				width:480px;
-				height:40px;
-				margin-top:40px;
-				background:#EC3E7D;
-				outline:none;
-				border:none;
-				color:#fff;
-				font-size:16px;
+				}
+				button{
+					width:480px;
+					height:40px;
+					margin-top:40px;
+					background:#EC3E7D;
+					outline:none;
+					border:none;
+					color:#fff;
+					font-size:16px;
 
+				}
 			}
 		}
 

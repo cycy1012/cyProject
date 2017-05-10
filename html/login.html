@@ -2,11 +2,39 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
-	<script src="require.js" data-main="../js/login.js"></script>
+	<title>登陆界面</title>
+	<link rel="stylesheet" href="../css/login.css">
+	<script src="../js/require.js" data-main="../js/login.js"></script>
 </head>
 <body>
 	<header id="header"></header>
+	<article>
+		<div class="container">
+			<div class="logo"><img src="../images/logo.png" alt=""></div>
+			<div class="left"><img src="../images/register.png" alt=""></div>
+			<div class="right">
+				<form action="">
+					<p class="title">
+						用户登录
+						<span>已有莎莎网账号？</span>
+						<span>立即登录</span>
+					</p>
+					
+					<input type="text" placeholder="手机/邮箱"><br>
+					<input type="text" placeholder="填写密码"><br>
+					<input type="checkbox" class="check"><span>记住我</span><a href="forgetPassword.html">忘记密码？</a><br>
+					<button>登录</button>
+					<div class="other_login">
+						<ul>
+							<li><a href=""><img src="../images/login01.jpg" alt="">QQ登录</a></li>
+							<li><a href=""><img src="../images/login02.jpg" alt="">微博登陆</a></li>
+							<li><a href=""><img src="../images/login03.jpg" alt="">支付宝登录</a></li>
+						</ul>
+					</div>
+				</form>
+			</div>
+		</div>
+	</article>
 	<footer id="footer"></footer>	
 </body>
 </html>

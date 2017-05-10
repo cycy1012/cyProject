@@ -1,14 +1,9 @@
-$bigWidth:1163px;
-$fontSize:12px;
-// 灰色字体
-$color:#999999;
-$position:right;
-$paddingRight:22px;
-*{padding:0;margin:0}
-a{text-decoration:none;}
-ul{list-style:none;}
-.container{$bigWidth:1163px;}
-// 上面的样式后期改为引用，因为监听缘故，暂时拖后
+@import 'common';
+@import 'head';
+@import 'foot';
+@import 'banner';
+@import 'shoplistRight';
+
 
 
 #b_nav .container .tall_nav{display:none;}
