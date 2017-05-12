@@ -28,6 +28,15 @@ ul {
   margin-left: 60px;
   margin-right: 60px;
   float: left;
+  position: relative;
+}
+
+#foot .container #links .top li i {
+  color: #ec3e7d;
+  font-size: 40px;
+  position: absolute;
+  top: 2px;
+  left: -51px;
 }
 
 #foot .container #links .top li p {

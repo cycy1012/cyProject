@@ -1,9 +1,9 @@
-(function($){
-	make();
-	function make(){
+(function(){
+	
+	(function(){
 		var $liSp = $('li').has('ul');
 				var $ulD=$liSp.children('ul').hide();
-				console.log( $ulD)
+
 				// 每个底下有ul的li，都添加个span('>')
 				$liSp.each(function(){
 					var span = document.createElement('span');
@@ -21,7 +21,7 @@
 					$(this).children('a').css({color:'#fff'})
 					$(this).children('ul').stop().hide(300);
 				})
-	}
+	})
 				
 	
-})(jquery);
+})(jQuery);

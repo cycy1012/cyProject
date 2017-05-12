@@ -1,0 +1,92 @@
+@import 'head';
+@import 'shoplistRight';
+@import 'foot';
+
+#b_nav .container .tall_nav{display:none;}
+.banner{
+	img{
+		display:block;
+		width:100%;
+	}
+}
+
+.allshoplist{
+	padding-top:50px;
+	background:#efeefe;
+	padding-bottom:50px;
+	overflow:hidden;
+	.container{
+		.title{
+			img{width:100%;display:block;}
+		}
+		.goods{
+			width:22%;
+			height:482px;
+			background:#fff;
+			margin-top:30px;
+			margin-right:30px;
+			float:left;
+			// border:1px solid #EC8AB1;
+			// position:absolute;
+			img{width:100%;height:253px;display:block;}
+			div{
+				border-top:1px solid #ccc;
+				padding-left:20px;
+
+				&:nth-of-type(1){
+					height:48px;
+					span{
+						line-height:48px;
+						&:nth-of-type(1){
+							font-size:28px;
+							color:#ec3e7d;
+						}
+						&:nth-of-type(2){
+							color:#858587;
+						}
+						&:nth-of-type(3){
+							color:#c69a62;
+							float:right;
+							margin-right:10px;
+						}
+					}
+				}
+				&:nth-of-type(2){
+					padding-top:10px;
+					p{
+						font-size:14px;
+						color:#3e3e3e;
+						line-height:20px;
+						&:nth-of-type(1){
+							span{
+								color:#c69a62;
+							}
+						}
+						&:nth-of-type(3){
+							margin-top:14px;
+						}
+						&:nth-of-type(4){
+							margin-top:8px;
+							color:#B9B9B9;
+						}
+					}
+				}
+			}
+			// js实现鼠标移入显示
+			.add_btn{
+				display:inline-block;
+				width:224px;
+				height:45px;
+				background:#ec3e7d;
+				color:#fff;
+				text-align:center;
+				line-height:45px;
+				margin-left:16px;
+				margin-top:10px;
+				opacity:0;
+				cursor:pointer;
+			}
+
+		}
+	}
+}

@@ -1,12 +1,16 @@
 require(['config'],function(){
-	require(['jquery','banner','header'],function(jqy,ban,header){
+	require(['jquery','banner','header','lazy'],function(jqy,ban,header){
 		$(function(){
 			// 引用头
 			$('#header').load('html/header.html',function(){
+				$('#header img').each(function(index,ele){
+					// $(this).attr('src','../'+($(this).attr('src')));
+					$(this).attr('src',($(this).attr('src')).substr(3));
+				})
 			// 执行头部js代码
 				var $liSp = $('li').has('ul');
 				var $ulD=$liSp.children('ul').hide();
-				console.log( $ulD)
+
 				// 每个底下有ul的li，都添加个span('>')
 				$liSp.each(function(){
 					var span = document.createElement('span');
@@ -32,9 +36,22 @@ require(['config'],function(){
 				showHowManyTimes:true,
 			});
 			// 引入shoplist
-			$('#shoplist').load('html/shoplistRight.html');
+			$('#shoplist').load('html/shoplistRight.html',function(){
+				// 点击购物车跳转界面
+				$('.shoppingcartLink').click(function(){
+					window.location.href = 'html/shoppingcart.html';
+				})
+			});
 			// 引入脚部
-			$('#footer').load('html/footer.html');
+			$('#footer').load('html/footer.html',function(){
+				$('#footer img').each(function(index,ele){
+					// $(this).attr('src','../'+($(this).attr('src')));
+					$(this).attr('src',($(this).attr('src')).substr(3));
+				})
+			});
+
+			 $('img').lazyload({effect: "fadeIn",threshold :-50,event:'scroll'});
+			 
 			
 			
 			

@@ -1,41 +1,10 @@
 <?php 
-
-    function connect_oop(){
-        // 配置参数
-        $servername = 'localhost';
-        $username = 'root';
-        $password = 'root';
-        $database = '1000phone';
-
-        //连接数据库
-        $conn = new mysqli($servername,$username,$password,$database);
-
-        // 检测连接
-        if($conn->connect_error){
-            die('连接失败'.$conn->connect_error);
-        }
-
-        $conn->set_charset('utf8');
-        return $conn;
-    }
-
-
-    function query_oop($sql){
-        $conn = connect_oop();
-        $result = $conn->query($sql);
-        $row = $result->fetch_all(MYSQLI_ASSOC);
-        $result->free();//释放内存
-        $conn->close();//关闭连接
-        return $row;
-    }
-
-
     //初始化连接对象方法
     function connect(){
         $servername = "localhost";//
         $username = "root";
-        $password = "root";
-        $dbname = '1000phone'; 
+        $password = "";
+        $dbname = 'sasa'; 
         //初始化连接，返回一个连接对象(包含所连接数据库的信息)
         $con = mysqli_connect($servername,$username,$password,$dbname); 
 

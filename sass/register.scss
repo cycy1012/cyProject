@@ -59,7 +59,8 @@ article{
 					margin-right:20px;
 
 				}
-				button{
+				#btn{
+					display:block;
 					width:480px;
 					height:40px;
 					margin-top:40px;
@@ -68,6 +69,8 @@ article{
 					border:none;
 					color:#fff;
 					font-size:16px;
+					text-align:center;
+					line-height:40px;
 
 				}
 			}
